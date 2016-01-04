@@ -1,0 +1,19 @@
+{
+  "name": "@sled/carousel",
+  "version": "0.1.0-beta",
+  "description": "slide endless",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sledjs/carousel.git"
+  },
+  "author": "Damian Martyniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sledjs/carousel/issues"
+  },
+  "homepage": "https://github.com/sledjs/carousel#readme",
+  "dependencies": {
+    "@sled/set-transform": "0.0.1"
+  }
+}
