@@ -1,6 +1,6 @@
-import setTransform from '@sled/set-transform';
+let setTransform = require('@sled/set-transform');
 
-export default class Carousel {
+module.exports = class Carousel {
   constructor($core) {
     this.$slides = $core.domModules.slides;
     this.slides = $core.modules.slides;
@@ -45,4 +45,4 @@ export default class Carousel {
       }.bind(this);
     }
   }
-}
+};
