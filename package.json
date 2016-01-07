@@ -1,6 +1,6 @@
 {
   "name": "@sled/carousel",
-  "version": "0.1.2-beta",
+  "version": "0.1.4-beta",
   "description": "slide endless",
   "main": "index.js",
   "repository": {
@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/sledjs/carousel#readme",
   "dependencies": {
-    "@sled/set-transform": "^0.0.1"
+    "@sled/set-transform": "^0.0.2"
   }
 }
