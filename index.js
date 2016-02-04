@@ -26,8 +26,7 @@ module.exports = class Carousel {
       let autoSlider = $core.modules.autoSlider;
       if (autoSlider) this.autoSlider = autoSlider;
 
-      this.slides.afterChange = function(can, val) {
-
+      this.slides.on('afterChange', (can, val) => {
         let slides = this.$slides.children;
 
         if (val > 0 && this.slides.slide > 1) {
@@ -44,7 +43,7 @@ module.exports = class Carousel {
         //this.slides.change(1);
         //if(autoSlider.work) autoSlider.restart();
         return can;
-      }.bind(this);
+      });
     }
   }
 };
